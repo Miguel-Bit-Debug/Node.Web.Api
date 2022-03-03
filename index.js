@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const mongoose = require('mongoose');
 const app = express()
-const router = require('./routes/routes')
+const router = require('./src/routes/routes')
 const port = 4000
 const connectionString = 'mongodb://localhost:27017';
 
